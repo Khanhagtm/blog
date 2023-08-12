@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "roboto" ,sans-serif;
+}
+
+header div{
+    position: fixed;
+    top: 0;
+    margin-top: 115px;
+    float: left;
+    border: 5px solid #ccc;
+    border-radius: 300px;
+    margin-bottom: 50px;
+    color: #4b5563;
+}
+
+header .create{
+    margin-top: 160px;
+}
+
+header .profile{
+    margin-top: 205px;
+}
+
+header .about{
+    margin-top: 250px;
+}
+
+header .contact{
+    margin-top: 295px;
+}
+
+article{
+    width:980px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+article .new_item{
+    border: 4px outset #ccc;
+}
+
+article .new_item h4{
+    font-size: 16px;
+    color:#ad3f00;
+    margin: 5px 10px;
+}
+article .new_item img{
+    margin: 5px 10px;
+}
+
+.avatar_user_post {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+}

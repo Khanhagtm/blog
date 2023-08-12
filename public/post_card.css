@@ -1,0 +1,85 @@
+
+
+.card {
+    margin: 10px 0px 10px 0px;
+    box-shadow: 0px 1px 5px 1px #d4d7da;
+}
+
+.card > .post_header {
+    padding: 8px;
+}
+
+svg.reaction-liked{
+  color: blue;
+}
+
+.comment-button{
+  color: blue;
+}
+
+
+.comment-bubble {
+    position: relative;
+    display: inline-block;
+    background-color: #e1d5d5bb;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.comment-content {
+    font-size: 14px;
+    line-height: 1.4;
+}
+.avatar{
+    border-radius: 50%;
+}
+
+.comment-section {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .user-avatar img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .comment-form {
+    flex-grow: 1;
+    margin-left: 10px;
+  }
+  .reaction-liked{
+    color:blue;
+  }
+  .comment-form textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+  
+  .comment-form button {
+    background-color: #7a7b7ad3;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .comment-form button:hover {
+    background-color: #3b5998;
+  }
+  
+  .edit_comment textarea {
+    position: relative;
+    display: inline-block;
+    background-color: #e1d5d5bb;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+  }
